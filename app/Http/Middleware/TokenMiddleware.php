@@ -12,7 +12,7 @@ class TokenMiddleware
         // Ambil header Authorization
         $authHeader = $request->header('Authorization');
 
-        // Validasi apakah token sesuai format Bearer dan isinya benar
+        // Validasi token
         if (!$authHeader || $authHeader !== 'Bearer Nizar-Token') {
             return response()->json([
                 'pesan' => 'Token tidak valid atau tidak disertakan.',

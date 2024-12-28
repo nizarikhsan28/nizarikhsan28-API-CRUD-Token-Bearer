@@ -139,15 +139,15 @@
                                 "properties": {
                                     "nama_mahasiswa": {
                                         "type": "string",
-                                        "example": "Rizal Baru"
+                                        "example": "Nizar Hidayatul Ikhsan"
                                     },
                                     "fakultas": {
                                         "type": "string",
-                                        "example": "Ekonomi"
+                                        "example": "Teknik"
                                     },
                                     "jurusan": {
                                         "type": "string",
-                                        "example": "Manajemen"
+                                        "example": "Informatika"
                                     }
                                 },
                                 "type": "object"
